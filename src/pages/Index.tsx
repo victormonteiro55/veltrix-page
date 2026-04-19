@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
@@ -8,16 +9,13 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 const Index = () => {
+  const { t } = useTranslation();
   return (
     <main className="min-h-screen bg-background text-foreground">
       <Navbar />
       <Hero />
       <section id="sobre" className="container mx-auto py-12 text-center max-w-3xl">
-        <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-          Sou especialista em <span className="text-foreground font-semibold">landing pages de alta conversão</span>.
-          Crio páginas profissionais, conecto seu domínio e cuido das alterações sempre que você precisar —
-          tudo para o seu negócio crescer online sem dor de cabeça.
-        </p>
+        <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">{t("about")}</p>
       </section>
       <Features />
       <Process />
