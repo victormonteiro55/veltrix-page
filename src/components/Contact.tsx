@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
-import { Mail, MessageCircle } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -15,14 +15,9 @@ const Contact = () => {
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto mb-8">{t("contact.sub")}</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Button asChild size="lg" className="bg-gradient-primary hover:opacity-90 shadow-glow">
-                <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">
-                  <MessageCircle className="w-4 h-4 mr-2" /> {t("contact.whatsapp")}
-                </a>
-              </Button>
-              <Button asChild size="lg" variant="outline" className="border-primary/40 hover:bg-primary/10">
-                <a href="mailto:contato@veltrixpage.com">
-                  <Mail className="w-4 h-4 mr-2" /> {t("contact.email")}
+              <Button asChild size="lg" className="bg-whatsapp hover:bg-whatsapp/90 text-whatsapp-foreground shadow-[0_0_60px_hsl(142_70%_45%/0.45)]">
+                <a href="https://wa.me/5541995057791" target="_blank" rel="noopener noreferrer">
+                  <MessageCircle className="w-4 h-4 mr-2" /> {t("contact.whatsapp")} +55 41 9505-7791
                 </a>
               </Button>
             </div>
