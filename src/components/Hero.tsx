@@ -29,7 +29,7 @@ const Hero = () => {
           <div className="mt-10 flex flex-wrap gap-8 text-sm text-muted-foreground">
             <div><span className="block text-2xl font-bold text-foreground">100%</span>Responsivo</div>
             <div><span className="block text-2xl font-bold text-foreground">7 dias</span>Entrega rápida</div>
-            <div><span className="block text-2xl font-bold text-foreground">∞</span>Alterações no plano mensal</div>
+            <div><span className="block text-2xl font-bold text-foreground">∞</span>Alterações simples no plano mensal</div>
           </div>
         </div>
         <div className="relative animate-float">
