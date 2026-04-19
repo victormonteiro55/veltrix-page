@@ -10,7 +10,7 @@ const plans = [
     description: "Tudo incluso, com flexibilidade total e suporte contínuo.",
     features: [
       "Landing page profissional",
-      "Alterações ilimitadas",
+      "Alterações simples ilimitadas",
       "Conexão de domínio incluída",
       "Hospedagem otimizada",
       "Design responsivo (mobile / tablet / desktop)",

@@ -1,11 +1,11 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const faqs = [
-  { q: "Qual a diferença entre os dois planos?", a: "O plano de $35/mês via PayPal inclui tudo (alterações ilimitadas, domínio, hospedagem). O plano de $300 via Wise é pagamento único com domínio incluso, mas alterações futuras custam $5 cada." },
+  { q: "Qual a diferença entre os dois planos?", a: "O plano de $35/mês via PayPal inclui tudo (alterações simples ilimitadas, domínio, hospedagem). O plano de $300 via Wise é pagamento único com domínio incluso, mas alterações futuras custam $5 cada." },
   { q: "Vocês conectam meu domínio?", a: "Sim. Em ambos os planos a conexão do domínio está incluída no valor." },
   { q: "Posso cancelar a assinatura quando quiser?", a: "Pode sim. Você cancela direto pelo PayPal a qualquer momento, sem multas." },
   { q: "Quanto tempo leva para ficar pronto?", a: "Normalmente entre 3 a 7 dias após o briefing inicial, dependendo da complexidade." },
-  { q: "E se eu quiser mudar algo depois?", a: "No plano mensal, alterações são ilimitadas. No plano único, cada alteração extra custa $5." },
+  { q: "E se eu quiser mudar algo depois?", a: "No plano mensal, alterações simples são ilimitadas. No plano único, cada alteração extra custa $5." },
 ];
 
 const FAQ = () => (
