@@ -83,7 +83,12 @@ const en = {
       { q: "Can I cancel the subscription anytime?", a: "Absolutely. You can cancel directly through PayPal at any time, with no fees." },
       { q: "How long does it take to be ready?", a: "Usually between 3 and 7 days after the initial briefing, depending on complexity." },
       { q: "What if I want to change something later?", a: "On the monthly plan, simple edits are unlimited. On the one-time plan, each extra edit costs $5." },
+      { q: "Do you offer refunds?", a: "No. Once the website has been delivered and is in use, no refunds will be issued under any circumstances. By hiring the service you acknowledge and accept this policy." },
     ],
+  },
+  refunds: {
+    heading1: "Refund", heading2: "policy",
+    body: "Important: there are no refunds after the website has been used. Once your landing page is delivered, published or actively in use, no refund will be granted — neither partial nor total — for the monthly subscription or the one-time payment. By contracting the service you confirm that you have read and accepted this policy.",
   },
   contact: {
     heading1: "Ready to", heading2: "grow online?",
@@ -173,7 +178,12 @@ const pt = {
       { q: "Posso cancelar a assinatura quando quiser?", a: "Pode sim. Você cancela direto pelo PayPal a qualquer momento, sem multas." },
       { q: "Quanto tempo leva para ficar pronto?", a: "Normalmente entre 3 a 7 dias após o briefing inicial, dependendo da complexidade." },
       { q: "E se eu quiser mudar algo depois?", a: "No plano mensal, alterações simples são ilimitadas. No plano único, cada alteração extra custa $5." },
+      { q: "Vocês oferecem reembolso?", a: "Não. Após a entrega e utilização do site, não haverá reembolso em nenhuma hipótese. Ao contratar o serviço você reconhece e aceita esta política." },
     ],
+  },
+  refunds: {
+    heading1: "Política de", heading2: "reembolso",
+    body: "Importante: não há reembolso após a utilização do site. Uma vez que sua landing page seja entregue, publicada ou esteja em uso, nenhum reembolso será concedido — nem parcial nem total — tanto na assinatura mensal quanto no pagamento único. Ao contratar o serviço, você confirma que leu e aceitou esta política.",
   },
   contact: {
     heading1: "Pronto para", heading2: "crescer online?",
@@ -263,7 +273,12 @@ const es = {
       { q: "¿Puedo cancelar la suscripción cuando quiera?", a: "Por supuesto. Puedes cancelar directamente desde PayPal en cualquier momento, sin penalizaciones." },
       { q: "¿Cuánto tarda en estar listo?", a: "Normalmente entre 3 y 7 días tras el briefing inicial, según la complejidad." },
       { q: "¿Y si quiero cambiar algo después?", a: "En el plan mensual, los cambios simples son ilimitados. En el plan único, cada cambio extra cuesta $5." },
+      { q: "¿Ofrecen reembolsos?", a: "No. Una vez entregado y en uso el sitio, no se realizarán reembolsos bajo ninguna circunstancia. Al contratar el servicio aceptas esta política." },
     ],
+  },
+  refunds: {
+    heading1: "Política de", heading2: "reembolso",
+    body: "Importante: no hay reembolsos tras el uso del sitio. Una vez entregada, publicada o en uso tu landing page, no se concederá ningún reembolso — ni parcial ni total — tanto en la suscripción mensual como en el pago único. Al contratar el servicio confirmas que has leído y aceptado esta política.",
   },
   contact: {
     heading1: "¿Listo para", heading2: "crecer online?",
