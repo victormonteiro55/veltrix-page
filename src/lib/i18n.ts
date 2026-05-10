@@ -82,7 +82,7 @@ const en = {
       { q: "Do you connect my domain?", a: "Yes. Domain connection is included in both plans." },
       { q: "Can I cancel the subscription anytime?", a: "Absolutely. You can cancel directly through Stripe at any time, with no fees." },
       { q: "How long does it take to be ready?", a: "Usually between 2 and 3 days after the initial briefing, depending on complexity." },
-      { q: "What if I want to change something later?", a: "On the monthly plan, simple edits are unlimited. On the one-time plan, each extra edit costs $5." },
+      { q: "What if I want to change something later?", a: "On the monthly plan, simple edits are unlimited. On the one-time plan, each extra edit costs $10." },
       { q: "Do you offer refunds?", a: "No. Once the website has been delivered and is in use, no refunds will be issued under any circumstances. By hiring the service you acknowledge and accept this policy." },
     ],
   },
