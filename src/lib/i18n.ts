@@ -83,7 +83,12 @@ const en = {
       { q: "Can I cancel the subscription anytime?", a: "Absolutely. You can cancel directly through PayPal at any time, with no fees." },
       { q: "How long does it take to be ready?", a: "Usually between 3 and 7 days after the initial briefing, depending on complexity." },
       { q: "What if I want to change something later?", a: "On the monthly plan, simple edits are unlimited. On the one-time plan, each extra edit costs $5." },
+      { q: "Do you offer refunds?", a: "No. Once the website has been delivered and is in use, no refunds will be issued under any circumstances. By hiring the service you acknowledge and accept this policy." },
     ],
+  },
+  refunds: {
+    heading1: "Refund", heading2: "policy",
+    body: "Important: there are no refunds after the website has been used. Once your landing page is delivered, published or actively in use, no refund will be granted — neither partial nor total — for the monthly subscription or the one-time payment. By contracting the service you confirm that you have read and accepted this policy.",
   },
   contact: {
     heading1: "Ready to", heading2: "grow online?",
