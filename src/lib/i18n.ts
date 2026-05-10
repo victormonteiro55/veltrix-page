@@ -178,7 +178,12 @@ const pt = {
       { q: "Posso cancelar a assinatura quando quiser?", a: "Pode sim. Você cancela direto pelo PayPal a qualquer momento, sem multas." },
       { q: "Quanto tempo leva para ficar pronto?", a: "Normalmente entre 3 a 7 dias após o briefing inicial, dependendo da complexidade." },
       { q: "E se eu quiser mudar algo depois?", a: "No plano mensal, alterações simples são ilimitadas. No plano único, cada alteração extra custa $5." },
+      { q: "Vocês oferecem reembolso?", a: "Não. Após a entrega e utilização do site, não haverá reembolso em nenhuma hipótese. Ao contratar o serviço você reconhece e aceita esta política." },
     ],
+  },
+  refunds: {
+    heading1: "Política de", heading2: "reembolso",
+    body: "Importante: não há reembolso após a utilização do site. Uma vez que sua landing page seja entregue, publicada ou esteja em uso, nenhum reembolso será concedido — nem parcial nem total — tanto na assinatura mensal quanto no pagamento único. Ao contratar o serviço, você confirma que leu e aceitou esta política.",
   },
   contact: {
     heading1: "Pronto para", heading2: "crescer online?",
