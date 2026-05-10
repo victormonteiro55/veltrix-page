@@ -6,6 +6,7 @@ import Process from "@/components/Process";
 import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
+import Refunds from "@/components/Refunds";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -21,6 +22,7 @@ const Index = () => {
       <Process />
       <Pricing />
       <FAQ />
+      <Refunds />
       <Contact />
       <Footer />
     </main>
