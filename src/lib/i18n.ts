@@ -70,7 +70,7 @@ const en = {
         "Domain connection included in the price",
         "Full responsive design",
         "Definitive delivery",
-        "Future edits: $5 each",
+        "Future edits: $10 each",
         "International payment via Wise, Stripe or PayPal",
       ],
     },
@@ -78,7 +78,7 @@ const en = {
   faq: {
     heading1: "Frequently asked", heading2: "questions",
     items: [
-      { q: "What's the difference between the two plans?", a: "The $35/month plan via Stripe includes everything (unlimited simple edits, domain, hosting). The $300 plan via Wise, Stripe or PayPal is a one-time payment with the domain included, but future edits cost $5 each." },
+      { q: "What's the difference between the two plans?", a: "The $35/month plan via Stripe includes everything (unlimited simple edits, domain, hosting). The $300 plan via Wise, Stripe or PayPal is a one-time payment with the domain included, but future edits cost $10 each." },
       { q: "Do you connect my domain?", a: "Yes. Domain connection is included in both plans." },
       { q: "Can I cancel the subscription anytime?", a: "Absolutely. You can cancel directly through Stripe at any time, with no fees." },
       { q: "How long does it take to be ready?", a: "Usually between 2 and 3 days after the initial briefing, depending on complexity." },
@@ -165,7 +165,7 @@ const pt = {
         "Conexão de domínio incluída no valor",
         "Design responsivo completo",
         "Entrega definitiva",
-        "Alterações posteriores: $5 cada",
+        "Alterações posteriores: $10 cada",
         "Pagamento internacional via Wise, Stripe ou PayPal",
       ],
     },
@@ -173,11 +173,11 @@ const pt = {
   faq: {
     heading1: "Perguntas", heading2: "frequentes",
     items: [
-      { q: "Qual a diferença entre os dois planos?", a: "O plano de $35/mês via Stripe inclui tudo (alterações simples ilimitadas, domínio, hospedagem). O plano de $300 via Wise, Stripe ou PayPal é pagamento único com domínio incluso, mas alterações futuras custam $5 cada." },
+      { q: "Qual a diferença entre os dois planos?", a: "O plano de $35/mês via Stripe inclui tudo (alterações simples ilimitadas, domínio, hospedagem). O plano de $300 via Wise, Stripe ou PayPal é pagamento único com domínio incluso, mas alterações futuras custam $10 cada." },
       { q: "Vocês conectam meu domínio?", a: "Sim. Em ambos os planos a conexão do domínio está incluída no valor." },
       { q: "Posso cancelar a assinatura quando quiser?", a: "Pode sim. Você cancela direto pelo Stripe a qualquer momento, sem multas." },
       { q: "Quanto tempo leva para ficar pronto?", a: "Normalmente entre 2 a 3 dias após o briefing inicial, dependendo da complexidade." },
-      { q: "E se eu quiser mudar algo depois?", a: "No plano mensal, alterações simples são ilimitadas. No plano único, cada alteração extra custa $5." },
+      { q: "E se eu quiser mudar algo depois?", a: "No plano mensal, alterações simples são ilimitadas. No plano único, cada alteração extra custa $10." },
       { q: "Vocês oferecem reembolso?", a: "Não. Após a entrega e utilização do site, não haverá reembolso em nenhuma hipótese. Ao contratar o serviço você reconhece e aceita esta política." },
     ],
   },
@@ -260,7 +260,7 @@ const es = {
         "Conexión de dominio incluida en el precio",
         "Diseño responsive completo",
         "Entrega definitiva",
-        "Cambios futuros: $5 cada uno",
+        "Cambios futuros: $10 cada uno",
         "Pago internacional vía Wise, Stripe o PayPal",
       ],
     },
@@ -268,11 +268,11 @@ const es = {
   faq: {
     heading1: "Preguntas", heading2: "frecuentes",
     items: [
-      { q: "¿Cuál es la diferencia entre los dos planes?", a: "El plan de $35/mes vía Stripe incluye todo (cambios simples ilimitados, dominio, alojamiento). El plan de $300 vía Wise, Stripe o PayPal es pago único con dominio incluido, pero cada cambio futuro cuesta $5." },
+      { q: "¿Cuál es la diferencia entre los dos planes?", a: "El plan de $35/mes vía Stripe incluye todo (cambios simples ilimitados, dominio, alojamiento). El plan de $300 vía Wise, Stripe o PayPal es pago único con dominio incluido, pero cada cambio futuro cuesta $10." },
       { q: "¿Conectan mi dominio?", a: "Sí. La conexión del dominio está incluida en ambos planes." },
       { q: "¿Puedo cancelar la suscripción cuando quiera?", a: "Por supuesto. Puedes cancelar directamente desde Stripe en cualquier momento, sin penalizaciones." },
       { q: "¿Cuánto tarda en estar listo?", a: "Normalmente entre 2 y 3 días tras el briefing inicial, según la complejidad." },
-      { q: "¿Y si quiero cambiar algo después?", a: "En el plan mensual, los cambios simples son ilimitados. En el plan único, cada cambio extra cuesta $5." },
+      { q: "¿Y si quiero cambiar algo después?", a: "En el plan mensual, los cambios simples son ilimitados. En el plan único, cada cambio extra cuesta $10." },
       { q: "¿Ofrecen reembolsos?", a: "No. Una vez entregado y en uso el sitio, no se realizarán reembolsos bajo ninguna circunstancia. Al contratar el servicio aceptas esta política." },
     ],
   },
