@@ -11,7 +11,7 @@ const Pricing = () => {
       name: t("pricing.monthly.name"),
       price: "$35",
       period: t("pricing.monthly.period"),
-      method: "PayPal",
+      method: "Stripe",
       description: t("pricing.monthly.desc"),
       features: t("pricing.monthly.features", { returnObjects: true }) as string[],
       cta: t("pricing.monthly.cta"),
