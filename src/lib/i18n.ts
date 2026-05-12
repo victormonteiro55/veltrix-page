@@ -44,7 +44,7 @@ const en = {
   pricing: {
     heading1: "Choose the plan", heading2: "that fits you best",
     sub: "Two simple options — subscribe monthly or pay once. No hidden fees.",
-    note: "Prices in US dollars (USD). Payments via Stripe, Wise or PayPal.",
+    note: "Prices in US dollars (USD). Payments via Stripe.",
     monthly: {
       name: "Monthly Subscription",
       period: "/month",
@@ -63,7 +63,7 @@ const en = {
       name: "One-Time Payment",
       period: "once",
       desc: "Pay once and get the full package, no monthly fees.",
-      cta: "Pay via Wise, Stripe or PayPal",
+      cta: "Pay via Stripe",
       badge: "Best value",
       features: [
         "Professional landing page",
@@ -71,14 +71,14 @@ const en = {
         "Full responsive design",
         "Definitive delivery",
         "Future edits: $10 each",
-        "International payment via Wise, Stripe or PayPal",
+        "International payment via Stripe",
       ],
     },
   },
   faq: {
     heading1: "Frequently asked", heading2: "questions",
     items: [
-      { q: "What's the difference between the two plans?", a: "The $35/month plan via Stripe includes everything (unlimited simple edits, domain, hosting). The $300 plan via Wise, Stripe or PayPal is a one-time payment with the domain included, but future edits cost $10 each." },
+      { q: "What's the difference between the two plans?", a: "The $35/month plan via Stripe includes everything (unlimited simple edits, domain, hosting). The $300 plan via Stripe is a one-time payment with the domain included, but future edits cost $10 each." },
       { q: "Do you connect my domain?", a: "Yes. Domain connection is included in both plans." },
       { q: "Can I cancel the subscription anytime?", a: "Absolutely. You can cancel directly through Stripe at any time, with no fees." },
       { q: "How long does it take to be ready?", a: "Usually between 2 and 3 days after the initial briefing, depending on complexity." },
@@ -139,7 +139,7 @@ const pt = {
   pricing: {
     heading1: "Escolha o plano", heading2: "ideal para você",
     sub: "Dois caminhos simples — assine mensalmente ou pague uma vez. Sem taxas escondidas.",
-    note: "Valores em dólar (USD). Pagamentos via Stripe, Wise ou PayPal.",
+    note: "Valores em dólar (USD). Pagamentos via Stripe.",
     monthly: {
       name: "Assinatura Mensal",
       period: "/mês",
@@ -158,7 +158,7 @@ const pt = {
       name: "Pagamento Único",
       period: "uma vez",
       desc: "Pague uma vez e leve o pacote completo, sem mensalidades.",
-      cta: "Pagar via Wise, Stripe ou PayPal",
+      cta: "Pagar via Stripe",
       badge: "Mais vantajoso",
       features: [
         "Landing page profissional",
@@ -166,14 +166,14 @@ const pt = {
         "Design responsivo completo",
         "Entrega definitiva",
         "Alterações posteriores: $10 cada",
-        "Pagamento internacional via Wise, Stripe ou PayPal",
+        "Pagamento internacional via Stripe",
       ],
     },
   },
   faq: {
     heading1: "Perguntas", heading2: "frequentes",
     items: [
-      { q: "Qual a diferença entre os dois planos?", a: "O plano de $35/mês via Stripe inclui tudo (alterações simples ilimitadas, domínio, hospedagem). O plano de $300 via Wise, Stripe ou PayPal é pagamento único com domínio incluso, mas alterações futuras custam $10 cada." },
+      { q: "Qual a diferença entre os dois planos?", a: "O plano de $35/mês via Stripe inclui tudo (alterações simples ilimitadas, domínio, hospedagem). O plano de $300 via Stripe é pagamento único com domínio incluso, mas alterações futuras custam $10 cada." },
       { q: "Vocês conectam meu domínio?", a: "Sim. Em ambos os planos a conexão do domínio está incluída no valor." },
       { q: "Posso cancelar a assinatura quando quiser?", a: "Pode sim. Você cancela direto pelo Stripe a qualquer momento, sem multas." },
       { q: "Quanto tempo leva para ficar pronto?", a: "Normalmente entre 2 a 3 dias após o briefing inicial, dependendo da complexidade." },
@@ -234,7 +234,7 @@ const es = {
   pricing: {
     heading1: "Elige el plan", heading2: "ideal para ti",
     sub: "Dos opciones simples — suscríbete mensualmente o paga una vez. Sin tarifas ocultas.",
-    note: "Precios en dólares (USD). Pagos vía Stripe, Wise o PayPal.",
+    note: "Precios en dólares (USD). Pagos vía Stripe.",
     monthly: {
       name: "Suscripción Mensual",
       period: "/mes",
@@ -253,7 +253,7 @@ const es = {
       name: "Pago Único",
       period: "una vez",
       desc: "Paga una vez y lleva el paquete completo, sin mensualidades.",
-      cta: "Pagar vía Wise, Stripe o PayPal",
+      cta: "Pagar vía Stripe",
       badge: "Mejor valor",
       features: [
         "Landing page profesional",
@@ -261,14 +261,14 @@ const es = {
         "Diseño responsive completo",
         "Entrega definitiva",
         "Cambios futuros: $10 cada uno",
-        "Pago internacional vía Wise, Stripe o PayPal",
+        "Pago internacional vía Stripe",
       ],
     },
   },
   faq: {
     heading1: "Preguntas", heading2: "frecuentes",
     items: [
-      { q: "¿Cuál es la diferencia entre los dos planes?", a: "El plan de $35/mes vía Stripe incluye todo (cambios simples ilimitados, dominio, alojamiento). El plan de $300 vía Wise, Stripe o PayPal es pago único con dominio incluido, pero cada cambio futuro cuesta $10." },
+      { q: "¿Cuál es la diferencia entre los dos planes?", a: "El plan de $35/mes vía Stripe incluye todo (cambios simples ilimitados, dominio, alojamiento). El plan de $300 vía Stripe es pago único con dominio incluido, pero cada cambio futuro cuesta $10." },
       { q: "¿Conectan mi dominio?", a: "Sí. La conexión del dominio está incluida en ambos planes." },
       { q: "¿Puedo cancelar la suscripción cuando quiera?", a: "Por supuesto. Puedes cancelar directamente desde Stripe en cualquier momento, sin penalizaciones." },
       { q: "¿Cuánto tarda en estar listo?", a: "Normalmente entre 2 y 3 días tras el briefing inicial, según la complejidad." },
