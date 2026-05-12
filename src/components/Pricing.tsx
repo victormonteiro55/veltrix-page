@@ -22,7 +22,7 @@ const Pricing = () => {
       name: t("pricing.oneTime.name"),
       price: "$300",
       period: t("pricing.oneTime.period"),
-      method: "Wise · Stripe · PayPal",
+      method: "Stripe",
       description: t("pricing.oneTime.desc"),
       features: t("pricing.oneTime.features", { returnObjects: true }) as string[],
       cta: t("pricing.oneTime.cta"),
