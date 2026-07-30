@@ -205,13 +205,14 @@ const es = {
   },
   pricing: {
     heading1: "Elige el plan", heading2: "ideal para ti",
-    sub: "Dos opciones simples — suscríbete mensualmente o paga una vez. Sin tarifas ocultas.",
-    note: "Precios en dólares (USD). Pagos vía Stripe.",
+    sub: "Una suscripción mensual simple. Todo incluido, sin tarifas ocultas.",
+    note: "Precio en dólares (USD). Pago vía Stripe.",
     monthly: {
       name: "Suscripción Mensual",
       period: "/mes",
       desc: "Todo incluido, con flexibilidad total y soporte continuo.",
       cta: "Suscribirse vía Stripe",
+      badge: "Todo incluido",
       features: [
         "Landing page profesional",
         "Cambios simples ilimitados",
