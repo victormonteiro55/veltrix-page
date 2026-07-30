@@ -241,17 +241,17 @@ const es = {
   faq: {
     heading1: "Preguntas", heading2: "frecuentes",
     items: [
-      { q: "¿Cuál es la diferencia entre los dos planes?", a: "El plan de $35/mes vía Stripe incluye todo (cambios simples ilimitados, dominio, alojamiento). El plan de $300 vía Stripe es pago único con dominio incluido, pero cada cambio futuro cuesta $10." },
-      { q: "¿Conectan mi dominio?", a: "Sí. La conexión del dominio está incluida en ambos planes." },
+      { q: "¿Qué está incluido en el plan mensual?", a: "El plan de $69/mes vía Stripe incluye todo: landing page profesional, cambios simples ilimitados, conexión de dominio, alojamiento optimizado, diseño responsive y soporte continuo." },
+      { q: "¿Conectan mi dominio?", a: "Sí. La conexión del dominio está incluida en el plan mensual." },
       { q: "¿Puedo cancelar la suscripción cuando quiera?", a: "Por supuesto. Puedes cancelar directamente desde Stripe en cualquier momento, sin penalizaciones." },
       { q: "¿Cuánto tarda en estar listo?", a: "Normalmente entre 2 y 3 días tras el briefing inicial, según la complejidad." },
-      { q: "¿Y si quiero cambiar algo después?", a: "En el plan mensual, los cambios simples son ilimitados. En el plan único, cada cambio extra cuesta $10." },
+      { q: "¿Y si quiero cambiar algo después?", a: "En el plan mensual, los cambios simples son ilimitados." },
       { q: "¿Ofrecen reembolsos?", a: "No. Una vez entregado y en uso el sitio, no se realizarán reembolsos bajo ninguna circunstancia. Al contratar el servicio aceptas esta política." },
     ],
   },
   refunds: {
     heading1: "Política de", heading2: "reembolso",
-    body: "Importante: no hay reembolsos tras el uso del sitio. Una vez entregada, publicada o en uso tu landing page, no se concederá ningún reembolso — ni parcial ni total — tanto en la suscripción mensual como en el pago único. Al contratar el servicio confirmas que has leído y aceptado esta política.",
+    body: "Importante: no hay reembolsos tras el uso del sitio. Una vez entregada, publicada o en uso tu landing page, no se concederá ningún reembolso — ni parcial ni total — en la suscripción mensual. Al contratar el servicio confirmas que has leído y aceptado esta política.",
   },
   contact: {
     heading1: "¿Listo para", heading2: "crecer online?",
