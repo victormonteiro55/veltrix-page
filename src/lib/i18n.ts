@@ -222,22 +222,6 @@ const es = {
         "Soporte cuando lo necesites",
       ],
     },
-    oneTime: {
-      name: "Pago Único",
-      period: "una vez",
-      desc: "Paga una vez y lleva el paquete completo, sin mensualidades.",
-      cta: "Pagar vía Stripe",
-      badge: "Mejor valor",
-      features: [
-        "Landing page profesional",
-        "Conexión de dominio incluida en el precio",
-        "Diseño responsive completo",
-        "Entrega definitiva",
-        "Cambios futuros: $10 cada uno",
-        "Pago internacional vía Stripe",
-      ],
-    },
-  },
   faq: {
     heading1: "Preguntas", heading2: "frecuentes",
     items: [
