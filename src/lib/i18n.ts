@@ -222,6 +222,7 @@ const es = {
         "Soporte cuando lo necesites",
       ],
     },
+  },
   faq: {
     heading1: "Preguntas", heading2: "frecuentes",
     items: [
