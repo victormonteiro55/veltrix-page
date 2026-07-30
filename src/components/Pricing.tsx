@@ -5,31 +5,16 @@ import { Button } from "@/components/ui/button";
 const Pricing = () => {
   const { t } = useTranslation();
 
-  const plans = [
-    {
-      key: "monthly",
-      name: t("pricing.monthly.name"),
-      price: "$35",
-      period: t("pricing.monthly.period"),
-      method: "Stripe",
-      description: t("pricing.monthly.desc"),
-      features: t("pricing.monthly.features", { returnObjects: true }) as string[],
-      cta: t("pricing.monthly.cta"),
-      highlighted: false,
-    },
-    {
-      key: "oneTime",
-      name: t("pricing.oneTime.name"),
-      price: "$300",
-      period: t("pricing.oneTime.period"),
-      method: "Stripe",
-      description: t("pricing.oneTime.desc"),
-      features: t("pricing.oneTime.features", { returnObjects: true }) as string[],
-      cta: t("pricing.oneTime.cta"),
-      badge: t("pricing.oneTime.badge"),
-      highlighted: true,
-    },
-  ];
+  const plan = {
+    key: "monthly",
+    name: t("pricing.monthly.name"),
+    price: "$69",
+    period: t("pricing.monthly.period"),
+    method: "Stripe",
+    description: t("pricing.monthly.desc"),
+    features: t("pricing.monthly.features", { returnObjects: true }) as string[],
+    cta: t("pricing.monthly.cta"),
+  };
 
   return (
     <section id="precos" className="py-24 relative">
@@ -41,53 +26,38 @@ const Pricing = () => {
           <p className="mt-4 text-muted-foreground">{t("pricing.sub")}</p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {plans.map((plan) => (
-            <div
-              key={plan.key}
-              className={`relative rounded-3xl p-8 border transition-all ${
-                plan.highlighted
-                  ? "bg-card border-primary/60 shadow-glow"
-                  : "bg-card border-border/60 hover:border-primary/40"
-              }`}
-            >
-              {plan.highlighted && (
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full bg-gradient-primary text-xs font-semibold text-primary-foreground inline-flex items-center gap-1">
-                  <Crown className="w-3 h-3" /> {plan.badge}
-                </div>
-              )}
-              <div className="flex items-baseline justify-between mb-2 gap-2">
-                <h3 className="font-display text-2xl font-semibold">{plan.name}</h3>
-                <span className="text-xs px-2 py-1 rounded-md bg-primary/10 text-primary border border-primary/30 whitespace-nowrap">
-                  {plan.method}
-                </span>
-              </div>
-              <p className="text-sm text-muted-foreground mb-6">{plan.description}</p>
-              <div className="mb-6">
-                <span className="font-display text-5xl font-bold text-gradient">{plan.price}</span>
-                <span className="text-muted-foreground ml-1">{plan.period}</span>
-              </div>
-              <ul className="space-y-3 mb-8">
-                {plan.features.map((f) => (
-                  <li key={f} className="flex items-start gap-3 text-sm">
-                    <Check className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
-                    <span className="text-muted-foreground">{f}</span>
-                  </li>
-                ))}
-              </ul>
-              <Button
-                asChild
-                size="lg"
-                className={`w-full ${
-                  plan.highlighted
-                    ? "bg-gradient-primary hover:opacity-90 shadow-glow"
-                    : "bg-secondary hover:bg-secondary/80 text-foreground"
-                }`}
-              >
-                <a href="#contato">{plan.cta}</a>
-              </Button>
+        <div className="max-w-2xl mx-auto">
+          <div className="relative rounded-3xl p-10 md:p-12 border bg-card border-primary/60 shadow-glow">
+            <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full bg-gradient-primary text-xs font-semibold text-primary-foreground inline-flex items-center gap-1">
+              <Crown className="w-3 h-3" /> {t("pricing.monthly.badge")}
             </div>
-          ))}
+            <div className="flex items-baseline justify-between mb-3 gap-2 flex-wrap">
+              <h3 className="font-display text-3xl font-semibold">{plan.name}</h3>
+              <span className="text-sm px-3 py-1 rounded-md bg-primary/10 text-primary border border-primary/30 whitespace-nowrap">
+                {plan.method}
+              </span>
+            </div>
+            <p className="text-base text-muted-foreground mb-8">{plan.description}</p>
+            <div className="mb-8">
+              <span className="font-display text-6xl md:text-7xl font-bold text-gradient">{plan.price}</span>
+              <span className="text-muted-foreground ml-2 text-lg">{plan.period}</span>
+            </div>
+            <ul className="space-y-4 mb-10">
+              {plan.features.map((f) => (
+                <li key={f} className="flex items-start gap-3 text-base">
+                  <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                  <span className="text-muted-foreground">{f}</span>
+                </li>
+              ))}
+            </ul>
+            <Button
+              asChild
+              size="lg"
+              className="w-full bg-gradient-primary hover:opacity-90 shadow-glow text-lg py-6"
+            >
+              <a href="#contato">{plan.cta}</a>
+            </Button>
+          </div>
         </div>
 
         <p className="text-center text-xs text-muted-foreground mt-8">{t("pricing.note")}</p>
