@@ -64,17 +64,17 @@ const en = {
   faq: {
     heading1: "Frequently asked", heading2: "questions",
     items: [
-      { q: "What's the difference between the two plans?", a: "The $35/month plan via Stripe includes everything (unlimited simple edits, domain, hosting). The $300 plan via Stripe is a one-time payment with the domain included, but future edits cost $10 each." },
-      { q: "Do you connect my domain?", a: "Yes. Domain connection is included in both plans." },
+      { q: "What is included in the monthly plan?", a: "The $69/month plan via Stripe includes everything: a professional landing page, unlimited simple edits, domain connection, optimized hosting, responsive design and ongoing support." },
+      { q: "Do you connect my domain?", a: "Yes. Domain connection is included in the monthly plan." },
       { q: "Can I cancel the subscription anytime?", a: "Absolutely. You can cancel directly through Stripe at any time, with no fees." },
       { q: "How long does it take to be ready?", a: "Usually between 2 and 3 days after the initial briefing, depending on complexity." },
-      { q: "What if I want to change something later?", a: "On the monthly plan, simple edits are unlimited. On the one-time plan, each extra edit costs $10." },
+      { q: "What if I want to change something later?", a: "Simple edits are unlimited on the monthly plan." },
       { q: "Do you offer refunds?", a: "No. Once the website has been delivered and is in use, no refunds will be issued under any circumstances. By hiring the service you acknowledge and accept this policy." },
     ],
   },
   refunds: {
     heading1: "Refund", heading2: "policy",
-    body: "Important: there are no refunds after the website has been used. Once your landing page is delivered, published or actively in use, no refund will be granted — neither partial nor total — for the monthly subscription or the one-time payment. By contracting the service you confirm that you have read and accepted this policy.",
+    body: "Important: there are no refunds after the website has been used. Once your landing page is delivered, published or actively in use, no refund will be granted — neither partial nor total — for the monthly subscription. By contracting the service you confirm that you have read and accepted this policy.",
   },
   contact: {
     heading1: "Ready to", heading2: "grow online?",
