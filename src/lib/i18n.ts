@@ -124,13 +124,14 @@ const pt = {
   },
   pricing: {
     heading1: "Escolha o plano", heading2: "ideal para você",
-    sub: "Dois caminhos simples — assine mensalmente ou pague uma vez. Sem taxas escondidas.",
-    note: "Valores em dólar (USD). Pagamentos via Stripe.",
+    sub: "Uma assinatura mensal simples. Tudo incluso, sem taxas escondidas.",
+    note: "Valor em dólar (USD). Pagamento via Stripe.",
     monthly: {
       name: "Assinatura Mensal",
       period: "/mês",
       desc: "Tudo incluso, com flexibilidade total e suporte contínuo.",
       cta: "Assinar via Stripe",
+      badge: "Tudo incluso",
       features: [
         "Landing page profissional",
         "Alterações simples ilimitadas",
@@ -140,36 +141,21 @@ const pt = {
         "Suporte sempre que precisar",
       ],
     },
-    oneTime: {
-      name: "Pagamento Único",
-      period: "uma vez",
-      desc: "Pague uma vez e leve o pacote completo, sem mensalidades.",
-      cta: "Pagar via Stripe",
-      badge: "Mais vantajoso",
-      features: [
-        "Landing page profissional",
-        "Conexão de domínio incluída no valor",
-        "Design responsivo completo",
-        "Entrega definitiva",
-        "Alterações posteriores: $10 cada",
-        "Pagamento internacional via Stripe",
-      ],
-    },
   },
   faq: {
     heading1: "Perguntas", heading2: "frequentes",
     items: [
-      { q: "Qual a diferença entre os dois planos?", a: "O plano de $35/mês via Stripe inclui tudo (alterações simples ilimitadas, domínio, hospedagem). O plano de $300 via Stripe é pagamento único com domínio incluso, mas alterações futuras custam $10 cada." },
-      { q: "Vocês conectam meu domínio?", a: "Sim. Em ambos os planos a conexão do domínio está incluída no valor." },
+      { q: "O que está incluído no plano mensal?", a: "O plano de $69/mês via Stripe inclui tudo: landing page profissional, alterações simples ilimitadas, conexão de domínio, hospedagem otimizada, design responsivo e suporte contínuo." },
+      { q: "Vocês conectam meu domínio?", a: "Sim. A conexão do domínio está incluída no plano mensal." },
       { q: "Posso cancelar a assinatura quando quiser?", a: "Pode sim. Você cancela direto pelo Stripe a qualquer momento, sem multas." },
       { q: "Quanto tempo leva para ficar pronto?", a: "Normalmente entre 2 a 3 dias após o briefing inicial, dependendo da complexidade." },
-      { q: "E se eu quiser mudar algo depois?", a: "No plano mensal, alterações simples são ilimitadas. No plano único, cada alteração extra custa $10." },
+      { q: "E se eu quiser mudar algo depois?", a: "No plano mensal, alterações simples são ilimitadas." },
       { q: "Vocês oferecem reembolso?", a: "Não. Após a entrega e utilização do site, não haverá reembolso em nenhuma hipótese. Ao contratar o serviço você reconhece e aceita esta política." },
     ],
   },
   refunds: {
     heading1: "Política de", heading2: "reembolso",
-    body: "Importante: não há reembolso após a utilização do site. Uma vez que sua landing page seja entregue, publicada ou esteja em uso, nenhum reembolso será concedido — nem parcial nem total — tanto na assinatura mensal quanto no pagamento único. Ao contratar o serviço, você confirma que leu e aceitou esta política.",
+    body: "Importante: não há reembolso após a utilização do site. Uma vez que sua landing page seja entregue, publicada ou esteja em uso, nenhum reembolso será concedido — nem parcial nem total — na assinatura mensal. Ao contratar o serviço, você confirma que leu e aceitou esta política.",
   },
   contact: {
     heading1: "Pronto para", heading2: "crescer online?",
