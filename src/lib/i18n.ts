@@ -43,13 +43,14 @@ const en = {
   },
   pricing: {
     heading1: "Choose the plan", heading2: "that fits you best",
-    sub: "Two simple options — subscribe monthly or pay once. No hidden fees.",
-    note: "Prices in US dollars (USD). Payments via Stripe.",
+    sub: "One simple monthly subscription. Everything included, no hidden fees.",
+    note: "Price in US dollars (USD). Payment via Stripe.",
     monthly: {
       name: "Monthly Subscription",
       period: "/month",
       desc: "Everything included, with full flexibility and ongoing support.",
       cta: "Subscribe via Stripe",
+      badge: "All included",
       features: [
         "Professional landing page",
         "Unlimited simple edits",
@@ -57,21 +58,6 @@ const en = {
         "Optimized hosting",
         "Responsive design (mobile / tablet / desktop)",
         "Support whenever you need",
-      ],
-    },
-    oneTime: {
-      name: "One-Time Payment",
-      period: "once",
-      desc: "Pay once and get the full package, no monthly fees.",
-      cta: "Pay via Stripe",
-      badge: "Best value",
-      features: [
-        "Professional landing page",
-        "Domain connection included in the price",
-        "Full responsive design",
-        "Definitive delivery",
-        "Future edits: $10 each",
-        "International payment via Stripe",
       ],
     },
   },
